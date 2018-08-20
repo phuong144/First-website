@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: azure;
+}
+header{
+	padding: 20px 0;
+}
+
+.container{
+	display: flex;
+	text-align: center;
+}
+		
+header h1{
+	font-weight: 700;
+	margin:0;
+	
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header nav{
+	display:flex;
+	margin-top: 10px;
+}
+
+.col-sm-4{
+	
+}
+.jumbotron {
+	
+	height: 500px;
+	background-size: cover;
+	background-image: url('https://cdn.pixabay.com/photo/2018/04/04/09/23/laptop-3289261_960_720.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.jumbotron h3 {  
+  
+  font-size: 30px;
+  font-weight: 500;
+  
+  margin-top: 360px;
+  margin-left: -160px;   
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+}
+.right {
+	width: 500px;
+	margin-left: 50px;
+	margin-top: -20px;
+}
+
+.middle img{
+	height: 667px;
+	width: auto;
+	margin-left: 50px;
+	margin-top:35px;
+}
+.about{
+	text-align:center;
+
+}
+
+.about p{
+	border: 2px solid grey;
+	padding: 5px;
+	padding: 20px;
+	font-size: 20px;
+	background-color: lightgrey;
+	margin: 2px 2px;
+}
+.links{
+	text-align: left;
+	margin-left: 100px;
+	
+}
+
+img{
+	border: 2px solid grey;
+	margin: 0 0 12px;
+	width: 450px;
+	height:300px;
+	
+}
+
+.middle img{
+	border: 5px groove lightblue;
+}
+#footer{		
+	width: 100%;
+	height: 60px;
+	text-align:center;
+	margin-top:-220px;
+	
+	
+	
+}
+
+li{
+	font-size: 20px;
+}
+
+.but{
+	cursor: pointer;
+   
+  position: relative;
+  margin-bottom: 5px;
+	
+}
+ .but:active{
+ top: 6px;
+ }
+
+ .rows{
+ margin-bottom: 10px;
+ }
