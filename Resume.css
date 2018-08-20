@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+body {
+	height: 100%;	
+	font-family: Calibri, Times New Roman;
+	text-align: left;	
+	margin-bottom: 30px;
+	
+}
+
+.biggermain{
+	display:flex;
+	flex-direction: row;
+}
+
+/*
+.biggermain{
+  div {
+    display: inline;
+  }
+}*/
+
+header{
+	text-align: center;
+}
+
+h1{
+	font-family: Arial, Times New Roman;
+	font-size: 45px;
+	margin-top: 20px;
+	margin-bottom: -15px;
+}
+
+.Info {
+	margin-bottom: -15px;
+}
+
+.Objective p{
+	text-align: center;
+}
+
+.main{
+	margin-left: 60px;
+}
+
+.Headings{
+	font-family:Georgia, Times New Roman;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.edu1{
+	margin-left: 20px;
+	
+}
+
+.edu-p{
+	margin:3px;
+}
+p.green{
+	color: green;
+	margin-left: 4px;
+}
+
+.row p{
+	display:inline-block;
+	vertical-align:top;
+	margin-top: 3px;
+	margin-bottom:3px;
+}
+
+img{		
+	float: right;
+	margin-top: 20px;
+	margin-right:70px;
+	width:70%;
+	height: auto;
+	border: 5px solid grey;
+    object-fit: cover;
+}
+
