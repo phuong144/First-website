@@ -50,21 +50,29 @@ header nav{
 }
 
 .main{
+	width : auto;
 	display: flex;
 	flex-direction: row;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.left{
+	width: auto;
+	margin: auto;
+	
+	
+	
 }
 .right {
 	width: 500px;
-	margin-left: 50px;
-	margin-top: -20px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: -20px;*/
 }
 
-.middle img{
-	height: 667px;
-	width: auto;
-	margin-left: 50px;
-	margin-top:35px;
-}
+
 .about{
 	text-align:center;
 
@@ -76,33 +84,39 @@ header nav{
 	padding: 20px;
 	font-size: 20px;
 	background-color: lightgrey;
-	margin: 2px 2px;
+	margin: auto;
+	margin-top: -10px;
 }
+
+
 .links{
 	text-align: left;
-	margin-left: 100px;
-	
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
 img{
 	border: 2px solid grey;
-	margin: 0 0 12px;
+	margin:auto;
 	width: 450px;
 	height:300px;
 	
 }
 
 .middle img{
+    height: auto;
+	width: 100%;
+	max-width: 500px;
 	border: 5px groove lightblue;
+	margin: auto;
+	margin-top: 40px;
 }
+
 #footer{		
 	width: 100%;
 	height: 60px;
 	text-align:center;
 	margin-top:-220px;
-	
-	
-	
 }
 
 li{
