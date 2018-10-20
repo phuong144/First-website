@@ -71,7 +71,7 @@ header nav{
 	
 }
 .right {
-	margin-top: -25px;
+	margin-top: -11px;
 	width: 100%;
 	max-width: 450px;
 	margin-left: auto;
@@ -102,6 +102,8 @@ header nav{
 .about h3{
 	font-size: auto;
 	
+	margin-bottom: 10px;
+	
 }
 
 
@@ -116,15 +118,16 @@ header nav{
 .HP{
 	text-align: center;
 	width:auto;
-	max-width: 450px;
+	
 	font-size: auto;
 	margin-left: auto;
-	margin-right: auto;
+	
+	
 }
 
 .HP h3{
-	font-size: 20px;
-	
+	font-size: 15px;
+	font-weight: bold;
 }
 
 .links img{
@@ -139,6 +142,18 @@ header nav{
 	
 }
 
+@media (max-width: 500px){
+	.nav2{
+	display:none; !important;
+	}
+}
+
+@media (max-width: 500px){
+	.nav{
+	display:none; !important;
+	}
+}
+
 .middle img{
 	
 	margin-left: auto;
@@ -151,22 +166,18 @@ header nav{
 	margin: auto;
 	margin-top:auto;
 	
-	top: 50%;
-	
 }
 
 #footer{		
 	width: 100%;
-
+    margin-top: 30px;
 	text-align:center;
 	position: relative;
 	bottom:0;
 	
 }
 
-li{
-	font-size: 20px;
-}
+
 
 .but{
 	cursor: pointer;
@@ -182,4 +193,134 @@ li{
  .rows{
  margin-bottom: 10px;
  }
+ 
+ 
+ 
+ 
+ .page2{
+ 
+ background-color: white;
+ border: black
+ }
+ 
+ .body2{
+	
+	font-family: Calibri, Times New Roman;
+	height: 1000px;
+	margin-bottom: 30px;
+	background-color: white;
+	
+	
+}
 
+.info{
+	font-size: 15px;
+}
+
+.biggermain{
+	display:flex;
+	flex-direction: row;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	height: auto;
+	
+}
+
+
+.header2{
+	text-align: center;
+	
+}
+
+.list li{
+	font-size: 16px;
+	font-size: 3vh;
+}
+
+@media screen and (min-width: 500px) {
+  .list li {
+     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .list li {
+     font-size: 11px;
+  }
+}
+
+
+.page2 h1{
+	font-family: Arial, Times New Roman;
+	font-size: 45px;
+	margin-top: 20px;
+	margin-bottom: -15px;
+}
+
+
+
+.Objective {
+	text-align: center;
+	font-size: 15px;
+}
+
+.main2{
+	margin-left: 20px;
+	margin-right:50px;
+	
+}
+
+.Headings{
+	font-family:Georgia, Times New Roman;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.edu1{
+	margin-left: 20px;
+	font-size: 18px;
+	
+}
+
+.edu-p{
+	margin:3px;
+}
+p.green{
+	color: green;
+	margin-left: 4px;
+}
+
+.row p{
+	display:inline-block;
+	vertical-align:top;
+	margin-top: 3px;
+	margin-bottom:3px;
+}
+
+.Rimg img{		
+	/*margin: auto;
+	margin-top: 20px;
+	float:right;
+    
+	max-width:500px;
+	
+	border: 5px solid grey;*/
+	float:right;
+	margin-left: auto;
+	margin-right: auto;
+    height: auto;
+    max-height: 730px;
+	width: 100%;
+	max-width: 500px;
+	border: 5px groove lightblue;
+	margin: auto;
+	margin-top:auto;
+	
+    
+    
+    
+    
+}
+
+ 
